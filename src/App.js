@@ -7,14 +7,16 @@ import CoursesPage from "./components/courses/CoursesPage";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <>
       <Header />
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/courses" component={CoursesPage} />
-        <Route exact path="/about" component={AboutPage} />
-      </Switch>
-    </div>
+      <div className="container-fluid">
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/courses" component={CoursesPage} />
+          <Route exact path="/about" component={AboutPage} />
+        </Switch>
+      </div>
+    </>
   );
 }
 
