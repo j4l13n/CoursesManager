@@ -1,9 +1,9 @@
 import React from "react";
-import HomePage from "./components/home/HomePage";
-import Header from "./components/common/Header";
+import HomePage from "./components/home/HomePage.jsx";
+import Header from "./components/common/Header.jsx";
 import { Route, Switch } from "react-router-dom";
-import AboutPage from "./components/about/AboutPage";
-import CoursesPage from "./components/courses/CoursesPage";
+import AboutPage from "./components/about/AboutPage.jsx";
+import CoursesPage from "./components/courses/CoursesPage.jsx";
 
 function App() {
   return (
